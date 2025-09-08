@@ -8,7 +8,7 @@ import Partnership from "./components/Partnership";
 export default function Home() {
   return (
     <div>
-      {/* <div>
+      <div>
         <AboutUs />
       </div>
 
@@ -19,13 +19,12 @@ export default function Home() {
       <div className="py-3 md:py-10">
         <Mission />
       </div>
+      <div>
+        <Partnership />
+      </div>
 
       <div>
         <Footer />
-      </div> */}
-
-      <div>
-        <Partnership />
       </div>
     </div>
   );

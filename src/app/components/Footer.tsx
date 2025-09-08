@@ -21,10 +21,8 @@ const Footer = () => {
                 description="Whether you're a restaurant seeking premium ingredients, a retailer looking for authentic products, or a distributor wanting to offer something truly special. From Maldives delivers the quality, story, and sustainability your customers demand."
                 buttonText="Get in touch with us"
                 onButtonClick={() => {}}
-                containerClassName="flex flex-col items-center text-white"
-                titleContainerClassName="max-w-[400px] md:max-w-[700px] px-5 md:px-0"
-                descriptionContainerClassName="max-w-[350px] md:max-w-[700px] px-4 md:px-8"
-                buttonContainerClassName="mt-6 md:mt-6"
+                containerClassName="text-white mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-black"
+                theme="footer"
               />
             </div>
           </div>

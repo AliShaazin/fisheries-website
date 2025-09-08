@@ -50,7 +50,7 @@ const InfoCards = ({
           alt="Arrow up right"
           width={10}
           height={10}
-          className="inline-block "
+          className="inline-block md:hidden"
         />
       </Link>
     </div>
