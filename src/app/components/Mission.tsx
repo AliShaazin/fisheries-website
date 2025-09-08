@@ -14,6 +14,7 @@ const Mission = () => {
           sustainability.
         </p>
       </div>
+      . bhh
       <div className="flex justify-center items-end mt-8 md:mt-12 relative">
         {/* Left Card */}
         <div className="relative overflow-hidden w-[200px] md:w-[387px] h-[335px] md:h-[650px] rounded-2xl md:rounded-3xl bg-[#F8D544] z-[10]">
