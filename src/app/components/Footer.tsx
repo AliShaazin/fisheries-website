@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import HeadingBox from "./HeadingBox";
 
 const Footer = () => {
   return (
@@ -14,30 +15,17 @@ const Footer = () => {
               className="object-cover object-top scale-130 md:scale-100 md:object-center"
             />
             <div className="absolute inset-0 flex items-center justify-center w-full">
-              <div className="flex flex-col items-center text-white">
-                <span className="uppercase text-[8px] md:text-[14px] font-inter font-bold leading-[1.1]">
-                  join the movement
-                </span>
-                <h1 className="mt-[10px] md:mt-[32px] uppercase text-[25px] md:text-[40px] px-5 md:px-0 max-w-[400px] md:max-w-[700px] font-konig-display-extra-bold leading-[1.2] text-center">
-                  Become Part of the From Maldives Story
-                </h1>
-                <h6 className="max-w-[350px] md:max-w-[700px] px-4 md:px-8 mt-[24px] text-[12px] md:text-[18px] text-center  font-light md:font-medium leading-[1.5]">
-                  Whether you're a restaurant seeking premium ingredients, a
-                  retailer looking for authentic products, or a distributor
-                  wanting to offer something truly special. From Maldives
-                  delivers the quality, story, and sustainability your customers
-                  demand.
-                </h6>
-                <div className="mt-6 md:mt-6">
-                  <button
-                    type="button"
-                    className="py-2 px-6 gap-2  md:py-3 md:px-5 md:gap-2.5 text-[12px] md:text-[16px] bg-[#00AA9D] font-semibold rounded-md md:rounded-lg text-white hover:opacity-90 transition-opacity cursor-pointer leading-[1.5]"
-                    onClick={() => {}}
-                  >
-                    Get in touch with us
-                  </button>
-                </div>
-              </div>
+              <HeadingBox
+                smallHeading="join the movement"
+                title="Become Part of the From Maldives Story"
+                description="Whether you're a restaurant seeking premium ingredients, a retailer looking for authentic products, or a distributor wanting to offer something truly special. From Maldives delivers the quality, story, and sustainability your customers demand."
+                buttonText="Get in touch with us"
+                onButtonClick={() => {}}
+                containerClassName="flex flex-col items-center text-white"
+                titleContainerClassName="max-w-[400px] md:max-w-[700px] px-5 md:px-0"
+                descriptionContainerClassName="max-w-[350px] md:max-w-[700px] px-4 md:px-8"
+                buttonContainerClassName="mt-6 md:mt-6"
+              />
             </div>
           </div>
         </div>

@@ -1,20 +1,18 @@
+"use client";
+import HeadingBox from "./HeadingBox";
+
 const Mission = () => {
   return (
     <div className="px-3 md:px-14">
-      <div className="flex flex-col items-center">
-        <h1 className="uppercase text-[#00AA9D] text-[14px] md:text-[18px]">
-          Mission & values
-        </h1>
-        <h2 className="text-[20px] md:text-[40px] leading-[1.2] uppercase mt-4 md:mt-6 text-center max-w-[700px] font-konig-display-extra-bold">
-          What Drives Us Forward
-        </h2>
-        <p className="font-medium text-[14px] md:text-[18px] leading-[1.5] mt-2 md:mt-4 max-w-[300px] md:max-w-[651px] text-center">
-          Born from 1,000 years of Maldivian fishing heritage. Crafted for
-          today's conscious consumers who demand authenticity, quality, and
-          sustainability.
-        </p>
-      </div>
-      . bhh
+      <HeadingBox
+        smallHeading="Mission & values"
+        title="What Drives Us Forward"
+        description="Born from 1,000 years of Maldivian fishing heritage. Crafted for today's conscious consumers who demand authenticity, quality, and sustainability."
+        containerClassName="flex flex-col items-center text-black"
+        titleContainerClassName="max-w-[700px]"
+        descriptionContainerClassName="max-w-[300px] md:max-w-[651px]"
+      />
+
       <div className="flex justify-center items-end mt-8 md:mt-12 relative">
         {/* Left Card */}
         <div className="relative overflow-hidden w-[200px] md:w-[387px] h-[335px] md:h-[650px] rounded-2xl md:rounded-3xl bg-[#F8D544] z-[10]">
@@ -117,4 +115,5 @@ const Mission = () => {
     </div>
   );
 };
+
 export default Mission;

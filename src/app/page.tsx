@@ -3,11 +3,12 @@ import AboutUs from "./components/AboutUs";
 import MediaDisplay from "./components/MediaDisplay";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
+import Partnership from "./components/Partnership";
 
 export default function Home() {
   return (
     <div>
-      <div>
+      {/* <div>
         <AboutUs />
       </div>
 
@@ -21,6 +22,10 @@ export default function Home() {
 
       <div>
         <Footer />
+      </div> */}
+
+      <div>
+        <Partnership />
       </div>
     </div>
   );
