@@ -6,14 +6,17 @@ import Footer from "./components/Footer";
 import Partnership from "./components/Partnership";
 import NewsLetter from "./components/NewsLetter";
 import Navbar from "./components/Navbar";
+import News from "./components/News";
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <div></div>
-
+      {/* <Navbar /> */}
       <div>
+        <News />
+      </div>
+
+      {/* <div>
         <AboutUs />
       </div>
 
@@ -33,7 +36,7 @@ export default function Home() {
 
       <div className="py-3 px-3 md:px-4">
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
