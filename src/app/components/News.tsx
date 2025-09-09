@@ -62,7 +62,7 @@ const News = () => {
           </div>
         </div>
 
-        <div className="w-full max-w-[700px] px-4 md:px-0 mt-8 md:mt-16 text-[16px] md:text-[18px] leading-[1.5] font-medium space-y-4">
+        <div className="w-full max-w-[700px] px-4 md:px-0 mt-8 md:mt-16 text-[16px] md:text-[18px] leading-[1.5] text-[#000000B2] font-medium space-y-4">
           <p>
             For Ahmed Rasheed, fishing isn't just a livelihood, it's his
             family's legacy written in salt water and sunrise.
@@ -161,29 +161,29 @@ const News = () => {
 
       {/* Related Stories */}
       <div>
-        <div className="px-4 md:px-[300px] mt-[60px] md:mt-[94px]">
+        <div className="px-4 md:px-[450px] mt-[60px] md:mt-[94px]">
           <p className="font-konig-display-extra-bold text-[20px] md:text-[24px] leading-[1.5] uppercase">
             Related Stories
           </p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mt-[25px] px-4 md:px-0">
           <InfoCards
-            title="MSc Certified"
-            description="We seamlessly integrate with trusted sustainability standards, giving consumers confidence in our environmental commitments while meeting retailer requirements."
-            iconUrl="/partners1.png"
-            altText="Restaurant Icon"
+            title="The Art of the Perfect Catch: Master Fisher Techniques"
+            description="Discover the precise skills and traditional knowledge that separate master fishers from beginners in the crystal waters of the Maldives."
+            iconUrl="/news-info1.png"
+            altText="Info1"
           />
           <InfoCards
-            title="MSc Certified"
-            description="We seamlessly integrate with trusted sustainability standards, giving consumers confidence in our environmental commitments while meeting retailer requirements."
-            iconUrl="/partners1.png"
-            altText="Restaurant Icon"
+            title="From Sunrise to Market: A Day in Maldivian Fishing Life"
+            description="Follow a complete 24-hour journey from pre-dawn dhoni departure to fresh fish arriving at international markets."
+            iconUrl="/news-info2.png"
+            altText="Info2"
           />
           <InfoCards
-            title="MSc Certified"
-            description="We seamlessly integrate with trusted sustainability standards, giving consumers confidence in our environmental commitments while meeting retailer requirements."
-            iconUrl="/partners1.png"
-            altText="Restaurant Icon"
+            title="Young Fishers, Ancient Wisdom: Next Generation Sustainability"
+            description="Meet the educated young Maldivians combining modern marine science with centuries-old fishing traditions."
+            iconUrl="/news-info3.png"
+            altText="Info3"
           />
         </div>
 

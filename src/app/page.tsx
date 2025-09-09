@@ -7,16 +7,19 @@ import Partnership from "./components/Partnership";
 import NewsLetter from "./components/NewsLetter";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
+import SingleProductPage from "./components/SingleProductPage";
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
+      <SingleProductPage />
+      {/* <Navbar />
       <div>
         <News />
       </div>
 
-      {/* <div>
+      <div>
         <AboutUs />
       </div>
 
