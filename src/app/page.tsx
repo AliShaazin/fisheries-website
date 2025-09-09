@@ -5,10 +5,14 @@ import Mission from "./components/Mission";
 import Footer from "./components/Footer";
 import Partnership from "./components/Partnership";
 import NewsLetter from "./components/NewsLetter";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
+      <div></div>
+
       <div>
         <AboutUs />
       </div>
