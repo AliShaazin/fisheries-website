@@ -4,6 +4,7 @@ import MediaDisplay from "./components/MediaDisplay";
 import Mission from "./components/Mission";
 import Footer from "./components/Footer";
 import Partnership from "./components/Partnership";
+import NewsLetter from "./components/NewsLetter";
 
 export default function Home() {
   return (
@@ -22,8 +23,11 @@ export default function Home() {
       <div>
         <Partnership />
       </div>
-
       <div>
+        <NewsLetter />
+      </div>
+
+      <div className="py-3 px-3 md:px-4">
         <Footer />
       </div>
     </div>

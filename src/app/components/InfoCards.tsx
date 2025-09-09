@@ -34,7 +34,7 @@ const InfoCards = ({
         {description}
       </p>
       <Link
-        href="/partners1.png"
+        href="/"
         className="text-[#00AA9D] font-semibold text-[12px] md:text-[16px] leading-[1.5] flex items-center gap-1 absolute bottom-3 left-3"
       >
         Read More
