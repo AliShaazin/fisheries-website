@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import HeadingBox from "./HeadingBox";
+import MediaDisplay from "./MediaDisplay";
 
 const AboutUs = () => {
   return (
@@ -14,6 +15,8 @@ const AboutUs = () => {
         onButtonClick={() => {}}
         containerClassName="mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-black"
       />
+
+      <MediaDisplay mediaUrl="/boat.jpg" alt="boat" mediaType="image" />
     </div>
   );
 };

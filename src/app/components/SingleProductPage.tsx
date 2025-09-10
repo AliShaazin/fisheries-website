@@ -5,7 +5,8 @@ import InfoCards from "./InfoCards";
 import { useState } from "react";
 
 const SingleProductPage = () => {
-  const [selectedImage, setSelectedImage] = useState(0);
+  // Start with the 5th image selected by default
+  const [selectedImage, setSelectedImage] = useState(4);
 
   const productImages = [
     {
@@ -105,27 +106,36 @@ const SingleProductPage = () => {
   return (
     <div>
       <div>
-        <div className="flex gap-3 mt-[54px] pl-[121px]">
+        <div className="flex gap-3 mt-[32px] md:mt-[54px] px-[30px] md:pl-[121px] md:px-0">
           <div>
             <Link href="/">
-              <Image src="/news-arrow.svg" alt="arrow" width={30} height={30} />
+              <Image
+                src="/news-arrow.svg"
+                alt="arrow"
+                width={24}
+                height={24}
+                className="w-[24px] h-[24px] md:w-[30px] md:h-[30px]"
+              />
             </Link>
           </div>
-          <div className="flex items-center justify-start font-medium text-[16px] leading-[1.5] ">
+          <div className="flex items-center justify-start font-medium text-[14px] md:text-[16px] leading-[1.5]">
             Back to Home
           </div>
         </div>
         {/* Top Flex box */}
         <div className="flex flex-col md:flex-row pb-[10px] md:pb-[80px] mx-[30px] md:mx-[120px] border-b border-[#00000033]">
-          <div className="flex gap-0 md:gap-[16px] pt-[32px]">
-            <div className="flex flex-col gap-[2px] md:gap-[16px] w-[12px] md:w-[120px]">
-              <div className="h-[484px] overflow-y-auto scrollbar-hide">
+          <div className="flex flex-col md:flex-row gap-0 md:gap-[16px] pt-[32px]">
+            {/* Thumbnails Scrollable List - Desktop only */}
+            <div className="hidden md:flex flex-col gap-[16px] w-[120px]">
+              <div className="h-[484px] overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                 <div className="flex flex-col gap-[16px]">
                   {productImages.map((image, index) => (
                     <div
                       key={index}
-                      className={`w-[50px] h-[50px] md:w-[120px] md:h-[120px] cursor-pointer transition-all duration-200 ${
-                        selectedImage === index ? "" : "hover:opacity-80"
+                      className={`w-[120px] h-[120px] cursor-pointer transition-all duration-200 ${
+                        selectedImage === index
+                          ? "ring-2 ring-[#00AA9D] ring-offset-2"
+                          : "hover:opacity-80"
                       }`}
                       onClick={() => setSelectedImage(index)}
                     >
@@ -142,6 +152,7 @@ const SingleProductPage = () => {
               </div>
             </div>
 
+            {/* Large Selected Image */}
             <div className="w-full h-[320px] md:w-[539px] md:h-[484px]">
               <Image
                 src={selectedProduct.src}
@@ -153,8 +164,34 @@ const SingleProductPage = () => {
             </div>
           </div>
 
-          <div className="flex h-[528px] flex-col items-center justify-center pl-[80px]">
-            <div className="ml-[80px] mt-[82px]">
+          {/* Mobile Thumbnails - Below main image on mobile */}
+          <div className="flex md:hidden mt-4 border-b border-[#00000033] pb-[50px]">
+            <div className="w-full overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+              <div className="flex flex-row gap-[16px] pb-2">
+                {productImages.map((image, index) => (
+                  <div
+                    key={index}
+                    className={`flex-shrink-0 w-[100px] h-[100px] cursor-pointer transition-all duration-200 ${
+                      selectedImage === index ? "" : "hover:opacity-80"
+                    }`}
+                    onClick={() => setSelectedImage(index)}
+                  >
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={100}
+                      height={100}
+                      className="w-full h-full object-cover rounded-[8px]"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Right panel */}
+          <div className="flex h-[528px] flex-col items-center justify-center">
+            <div className="ml-30px md:ml-[80px] md:mt-[82px]">
               <div className="flex items-center gap-2">
                 <Image
                   src={selectedProduct.logo}
@@ -184,13 +221,13 @@ const SingleProductPage = () => {
           </div>
         </div>
         {/* Middle Flex box */}
-        <div className="flex mx-[120px] mt-[80px] gap-[120px] border-b border-[#00000033] pb-[77px]">
+        <div className="flex flex-col md:flex-row mx-[30px] md:mx-[120px] mt-[40px] md:mt-[80px] gap-0 md:gap-[120px] border-b border-[#00000033] pb-[77px]">
           <div className="flex-1">
             <h1 className="font-konig-display-extra-bold text-[24px] leading-[1.2] uppercase mb-[32px]">
               Product Details
             </h1>
 
-            <div className="text-[16px] w-[700px] leading-[1.6] text-[#000000B2] space-y-4">
+            <div className="text-[16px] w-full md:w-[700px] leading-[1.6] text-[#000000B2] space-y-4 md:border-0 pb-[50px] md:pb-0 border-b border-[#00000033]">
               {selectedProduct.productDetails.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}
@@ -198,7 +235,7 @@ const SingleProductPage = () => {
           </div>
 
           <div className="flex flex-col ">
-            <h1 className="font-konig-display-extra-bold text-[24px] leading-[1.2] uppercase mb-[32px]">
+            <h1 className="font-konig-display-extra-bold text-[24px] leading-[1.2] uppercase mb-[32px] mt-[50px] md:mt-0">
               About Manufacturer
             </h1>
             <div className="flex items-center gap-4 mb-[16px]">
@@ -220,8 +257,9 @@ const SingleProductPage = () => {
             </div>
           </div>
         </div>
+        {/* Footer visuals */}
         <div>
-          <div className="px-4 md:px-[120px] mt-[60px] md:mt-[94px]">
+          <div className="px-[30px] md:px-[120px] mt-[60px] md:mt-[94px] ">
             <p className="font-konig-display-extra-bold text-[20px] md:text-[24px] leading-[1.5] uppercase">
               Related Stories
             </p>

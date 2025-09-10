@@ -1,22 +1,17 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { Menu, X } from "lucide-react";
-import { useState } from "react";
+'use client'
+import Image from 'next/image'
+import Link from 'next/link'
+import { Menu, X } from 'lucide-react'
+import { useState } from 'react'
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <div>
       <div className="pl-5 md:pl-15 lg:pl-29 py-6 flex items-center justify-between border-b border-[#F7F5EB] h-[96px]">
         <div className="relative  w-[152px] h-[48px]">
-          <Image
-            src="/navbar-logo.png"
-            alt="Navbar Logo"
-            fill
-            className="object cover"
-          />
+          <Image src="/navbar-logo.png" alt="Navbar Logo" fill className="object cover" />
         </div>
 
         <div className="hidden md:flex items-center justify-between w-[433px] font-semibold text-[16px] text-black leading-[1.5]">
@@ -61,7 +56,7 @@ const Navbar = () => {
         </div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

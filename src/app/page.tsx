@@ -12,34 +12,14 @@ import SingleProductPage from "./components/SingleProductPage";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <SingleProductPage />
-      {/* <Navbar />
-      <div>
-        <News />
-      </div>
-
-      <div>
-        <AboutUs />
-      </div>
-
-      <div className="">
-        <MediaDisplay mediaUrl="/boat.jpg" alt="boat" mediaType="image" />
-      </div>
-
-      <div className="py-3 md:py-10">
-        <Mission />
-      </div>
-      <div>
-        <Partnership />
-      </div>
-      <div>
-        <NewsLetter />
-      </div>
-
-      <div className="py-3 px-3 md:px-4">
-        <Footer />
-      </div> */}
+      {/* <News />
+      <AboutUs />
+      <Mission />
+      <Partnership />
+      <NewsLetter />
+      <Footer /> */}
     </div>
   );
 }
