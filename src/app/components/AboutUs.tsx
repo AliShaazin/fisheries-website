@@ -1,15 +1,15 @@
-"use client";
+'use client'
 
-import Image from "next/image";
-import HeadingBox from "./HeadingBox";
-import MediaDisplay from "./MediaDisplay";
+import Image from 'next/image'
+import HeadingBox from './HeadingBox'
+import MediaDisplay from './MediaDisplay'
 
 const AboutUs = () => {
   return (
     <div className="px-4">
       <HeadingBox
         smallHeading="About us"
-        title="We showcase Maldives' Fishing Excellence to the World"
+        title="Wzxczxcjkscsakjdsa to the World"
         description="From Maldives aims to connect global consumers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
         onButtonClick={() => {}}
@@ -18,7 +18,7 @@ const AboutUs = () => {
 
       <MediaDisplay mediaUrl="/boat.jpg" alt="boat" mediaType="image" />
     </div>
-  );
-};
+  )
+}
 
-export default AboutUs;
+export default AboutUs
