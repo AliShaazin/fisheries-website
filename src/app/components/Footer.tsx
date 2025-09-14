@@ -19,7 +19,7 @@ const Footer = () => {
                 smallHeading="join the movement"
                 title="Become asdaokdjadaljsdakldlaslkaslkaldives Story"
                 description="Whether you're a restaurant seeking premium ingredients, a retailer looking for authentic products, or a distributor wanting to offer something truly special. From Maldives delivers the quality, story, and sustainability your customers demand."
-                buttonText="Get in touch with us"
+                buttonText="Test Branch"
                 onButtonClick={() => {}}
                 containerClassName="text-white mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-black"
                 theme="footer"
