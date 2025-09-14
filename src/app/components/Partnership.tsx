@@ -23,14 +23,14 @@ const Partnership = () => {
           altText="Restaurant Icon"
         />
         <InfoCards
-          title="From Maldives x Sainsbury's"
+          title="Fsaldkaldjsakjdlasjkdalsjdkkjlsajdry's"
           description="Our brand adapts beautifully for co-branding with premium retailers and distributors, combining our authentic heritage with their market expertise and customer trust."
           iconUrl="/partners2.png"
           altText="Restaurant Icon"
         />
         <InfoCards
-          title="From Maldives x Gordon Ramsay"
-          description="Celebrity chef partnerships leverage our premium positioning, connecting discerning diners with the exceptional quality that culinary professionals demand."
+          title="From asdkaskldjalksjdasordon Ramsay"
+          description="Celebrity csadljasdlkjalsdkja leverage our premium positioning, connecting discerning diners with the exceptional quality that culinary professionals demand."
           iconUrl="/partners3.png"
           altText="Restaurant Icon"
         />

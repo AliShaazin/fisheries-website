@@ -137,7 +137,7 @@ const News = () => {
             altText="Info1"
           />
           <InfoCards
-            title="From Sunrise to Market: A Day in Maldivian Fishing Life"
+            title="From Suaskdljajlsdjlkasldjksl: A Day in Maldivian Fishing Life"
             description="Follow a complete 24-hour journey from pre-dawn dhoni departure to fresh fish arriving at international markets."
             iconUrl="/news-info2.png"
             altText="Info2"
