@@ -1,7 +1,7 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import InfoCards from "./InfoCards";
+'use client'
+import Image from 'next/image'
+import Link from 'next/link'
+import InfoCards from './InfoCards'
 
 const News = () => {
   return (
@@ -12,12 +12,7 @@ const News = () => {
           <div className="flex gap-3">
             <div>
               <Link href="/">
-                <Image
-                  src="/news-arrow.svg"
-                  alt="arrow"
-                  width={30}
-                  height={30}
-                />
+                <Image src="/news-arrow.svg" alt="arrow" width={30} height={30} />
               </Link>
             </div>
             <div className="flex items-center justify-start font-medium text-[16px] leading-[1.5] ">
@@ -26,8 +21,7 @@ const News = () => {
           </div>
 
           <div className="uppercase mt-8 md:mt-12 font-konig-display-extra-bold text-[24px] md:text-[32px] leading-[1.2]">
-            Three Generations, One Dhoni: The Rasheed Family's Century of
-            Sustainable Fishing
+            Three Generations, One Dhoni: The Rasheed Family's Century of Sustainable Fishing
           </div>
 
           <div className="flex mt-[30px] md:mt-[43px]">
@@ -53,72 +47,61 @@ const News = () => {
 
         <div className="w-full px-4 sm:px-[100px] md:px-[350px]">
           <div className="relative mt-6 md:mt-8 w-full h-[300px] md:h-[600px] rounded-[16px] md:rounded-[24px] overflow-hidden">
-            <Image
-              src="/image2.png"
-              alt="Image 2"
-              fill
-              className="object-cover"
-            />
+            <Image src="/image2.png" alt="Image 2" fill className="object-cover" />
           </div>
         </div>
 
         <div className="w-full max-w-[700px] px-4 md:px-0 mt-8 md:mt-16 text-[16px] md:text-[18px] leading-[1.5] text-[#000000B2] font-medium space-y-4">
           <p>
-            For Ahmed Rasheed, fishing isn't just a livelihood, it's his
-            family's legacy written in salt water and sunrise.
+            For Ahmed Rasheed, fishing isn't just a livelihood, it's his family's legacy written in
+            salt water and sunrise.
           </p>
 
           <p>
-            Every morning at 4 AM, Ahmed joins his father Hassan and 19-year-old
-            son Ibrahim aboard their traditional dhoni, "Maadhoo Dhanee"
-            (Beautiful Pearl). Three generations working together, using the
-            same pole-and-line methods that Ahmed's grandfather taught him sixty
+            Every morning at 4 AM, Ahmed joins his father Hassan and 19-year-old son Ibrahim aboard
+            their traditional dhoni, "Maadhoo Dhanee" (Beautiful Pearl). Three generations working
+            together, using the same pole-and-line methods that Ahmed's grandfather taught him sixty
             years ago.
           </p>
 
           <p>
-            "My grandfather always said the ocean gives us everything we need,
-            but only if we take what we need," explains Hassan, 67, as he
-            prepares his fishing lines with practiced precision. "No nets, no
-            waste, no harm to other sea life. Just one hook, one fish, one
+            "My grandfather always said the ocean gives us everything we need, but only if we take
+            what we need," explains Hassan, 67, as he prepares his fishing lines with practiced
+            precision. "No nets, no waste, no harm to other sea life. Just one hook, one fish, one
             family at a time."
           </p>
 
           <p>
-            The Rasheed family operates from Felivaru, a small island in
-            Lhaviyani Atoll where nearly every household depends on fishing. But
-            their approach remains distinctly traditional in a rapidly
-            modernizing industry. While larger vessels use purse seine nets to
-            catch tons of fish at once, the Rasheeds stick to their poles,
-            catching 200-300 premium yellowfin tuna per trip.
+            The Rasheed family operates from Felivaru, a small island in Lhaviyani Atoll where
+            nearly every household depends on fishing. But their approach remains distinctly
+            traditional in a rapidly modernizing industry. While larger vessels use purse seine nets
+            to catch tons of fish at once, the Rasheeds stick to their poles, catching 200-300
+            premium yellowfin tuna per trip.
           </p>
 
           <p>
-            "People ask why we don't use nets like the big boats," says Ibrahim,
-            the third-generation fisher who recently graduated with a degree in
-            marine biology. "But quality over quantity has always been our way.
-            Each fish we catch is perfect—no stress, no damage, no bycatch."
+            "People ask why we don't use nets like the big boats," says Ibrahim, the
+            third-generation fisher who recently graduated with a degree in marine biology. "But
+            quality over quantity has always been our way. Each fish we catch is perfect—no stress,
+            no damage, no bycatch."
           </p>
 
           <p>
-            This commitment to traditional methods has made the Rasheed family
-            one of From Maldives' most trusted partner fishers. Their catch
-            commands premium prices in international markets, not just for its
-            sustainability credentials, but for its exceptional quality.
+            This commitment to traditional methods has made the Rasheed family one of From Maldives'
+            most trusted partner fishers. Their catch commands premium prices in international
+            markets, not just for its sustainability credentials, but for its exceptional quality.
           </p>
 
           <p>
-            "When you respect the ocean, the ocean respects you back," Ahmed
-            reflects, watching dolphins play in their boat's wake. "We're not
-            just fishing for today, we're fishing for Ibrahim's children, and
-            their children too."
+            "When you respect the ocean, the ocean respects you back," Ahmed reflects, watching
+            dolphins play in their boat's wake. "We're not just fishing for today, we're fishing for
+            Ibrahim's children, and their children too."
           </p>
 
           <p>
-            The morning's catch is already sorted and iced, ready for processing
-            at the nearby facility. Another successful trip using methods that
-            have sustained families like the Rasheeds for over a thousand
-            years—and will continue for a thousand more.
+            The morning's catch is already sorted and iced, ready for processing at the nearby
+            facility. Another successful trip using methods that have sustained families like the
+            Rasheeds for over a thousand years—and will continue for a thousand more.
           </p>
         </div>
 
@@ -129,31 +112,13 @@ const News = () => {
           </div>
           <div className="flex gap-[12px] mt-[12px]">
             <Link href="/">
-              <Image
-                src="/news-fb.svg"
-                alt="share"
-                width={24}
-                height={24}
-                className=""
-              />
+              <Image src="/news-fb.svg" alt="share" width={24} height={24} className="" />
             </Link>
             <Link href="/">
-              <Image
-                src="/news-insta.svg"
-                alt="bookmark"
-                width={24}
-                height={24}
-                className=""
-              />
+              <Image src="/news-insta.svg" alt="bookmark" width={24} height={24} className="" />
             </Link>
             <Link href="/">
-              <Image
-                src="/news-twitter.svg"
-                alt="link"
-                width={24}
-                height={24}
-                className=""
-              />
+              <Image src="/news-twitter.svg" alt="link" width={24} height={24} className="" />
             </Link>
           </div>
         </div>
@@ -162,9 +127,7 @@ const News = () => {
       {/* Related Stories */}
       <div>
         <div className="px-4 md:px-[450px] mt-[60px] md:mt-[94px]">
-          <p className="font-konig-display-extra-bold text-[20px] md:text-[24px] leading-[1.5] uppercase">
-            Related Stories
-          </p>
+          <p className="text-[20px] md:text-[24px] leading-[1.5] uppercase">Related Stories</p>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4 mt-[25px] px-4 md:px-0">
           <InfoCards
@@ -217,7 +180,7 @@ const News = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default News;
+export default News
