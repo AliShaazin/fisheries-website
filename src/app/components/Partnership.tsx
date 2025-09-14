@@ -1,7 +1,7 @@
-"use client";
+'use client'
 
-import HeadingBox from "./HeadingBox";
-import InfoCards from "./InfoCards";
+import HeadingBox from './HeadingBox'
+import InfoCards from './InfoCards'
 
 const Partnership = () => {
   return (
@@ -36,7 +36,7 @@ const Partnership = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Partnership;
+export default Partnership
