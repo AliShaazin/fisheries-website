@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div className="px-4">
       <HeadingBox
         smallHeading="About us"
-        title="Wzxczxcjkscsakjdsa to the World"
+        title="bbbbbb to the World"
         description="From Maldives aims to connect global consumers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
         onButtonClick={() => {}}
