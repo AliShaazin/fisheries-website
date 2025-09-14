@@ -10,7 +10,7 @@ const AboutUs = () => {
       <HeadingBox
         smallHeading="About us"
         title="asdasdas to the World"
-        description="From Maldives aims to connect global consumers with the Maldives' exceptional marine resources"
+        description="From Maldives aims asdasdasdsadasadsaers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
         onButtonClick={() => {}}
         containerClassName="mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-white"
