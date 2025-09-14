@@ -13,7 +13,7 @@ const AboutUs = () => {
         description="From Maldives aims to connect global consumers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
         onButtonClick={() => {}}
-        containerClassName="mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-black"
+        containerClassName="mb-28 flex flex-col items-center mt-16 md:mt-32 mx-auto w-full h-auto md:h-[335px] text-white"
       />
 
       <MediaDisplay mediaUrl="/boat.jpg" alt="boat" mediaType="image" />
