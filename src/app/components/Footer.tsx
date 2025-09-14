@@ -1,6 +1,6 @@
-"use client";
-import Image from "next/image";
-import HeadingBox from "./HeadingBox";
+'use client'
+import Image from 'next/image'
+import HeadingBox from './HeadingBox'
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
             <div className="absolute inset-0 flex items-center justify-center w-full">
               <HeadingBox
                 smallHeading="join the movement"
-                title="Become Part of the From Maldives Story"
+                title="Become asdaokdjadaljsdakldlaslkaslkaldives Story"
                 description="Whether you're a restaurant seeking premium ingredients, a retailer looking for authentic products, or a distributor wanting to offer something truly special. From Maldives delivers the quality, story, and sustainability your customers demand."
                 buttonText="Get in touch with us"
                 onButtonClick={() => {}}
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
