@@ -18,18 +18,18 @@ const Partnership = () => {
       <div className=" flex flex-col md:flex-col xl:flex-row items-center justify-center mb-10 md:mb-20 gap-1 md:gap-2">
         <InfoCards
           title="MSc Certified"
-          description="We seamlessly integrate with trusted sustainability standards, giving consumers confidence in our environmental commitments while meeting retailer requirements."
+          description="Weasdlak;dsk;lka;sldsd sustainability standards, giving consumers confidence in our environmental commitments while meeting retailer requirements."
           iconUrl="/partners1.png"
           altText="Restaurant Icon"
         />
         <InfoCards
-          title="Fsaldkaldjsakjdlasjkdalsjdkkjlsajdry's"
+          title="Main"
           description="Our brand adapts beautifully for co-branding with premium retailers and distributors, combining our authentic heritage with their market expertise and customer trust."
           iconUrl="/partners2.png"
           altText="Restaurant Icon"
         />
         <InfoCards
-          title="From asdkaskldjalksjdasordon Ramsay"
+          title="Main"
           description="Celebrity csadljasdlkjalsdkja leverage our premium positioning, connecting discerning diners with the exceptional quality that culinary professionals demand."
           iconUrl="/partners3.png"
           altText="Restaurant Icon"
