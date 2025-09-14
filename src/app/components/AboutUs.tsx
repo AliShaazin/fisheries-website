@@ -8,7 +8,7 @@ const AboutUs = () => {
   return (
     <div className="px-4">
       <HeadingBox
-        smallHeading="About us"
+        smallHeading="Main 1"
         title="asdasdadsopdasipdoadspioaipoiadsioppioadposasjodasjoidoiasijodjoiasojajiodasld"
         description="From Maldives aims asdasdasdsadasadsaers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
