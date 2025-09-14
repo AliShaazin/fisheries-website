@@ -8,8 +8,8 @@ const AboutUs = () => {
   return (
     <div className="px-4">
       <HeadingBox
-        smallHeading="Main 1"
-        title="Main 2"
+        smallHeading="Test 1"
+        title="Test 2"
         description="From Maldives aims asdasdasdsadasadsaers with the Maldives' exceptional marine resources"
         buttonText="Find out more"
         onButtonClick={() => {}}
