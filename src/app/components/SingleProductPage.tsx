@@ -132,9 +132,7 @@ const SingleProductPage = () => {
                     <div
                       key={index}
                       className={`w-[120px] h-[120px] cursor-pointer transition-all duration-200 ${
-                        selectedImage === index
-                          ? 'ring-2 ring-[#00AA9D] ring-offset-2'
-                          : 'hover:opacity-80'
+                        selectedImage === index ? '' : 'hover:opacity-80'
                       }`}
                       onClick={() => setSelectedImage(index)}
                     >
